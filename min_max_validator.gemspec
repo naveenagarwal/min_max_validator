@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["naveenagarwal287@gmail.com"]
   spec.summary       = %q{mininum and maximum value validator for the two attributes.}
   spec.description   = %q{mininum and maximum value validator for the two attributes.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/naveenagarwal/min_max_validator"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
