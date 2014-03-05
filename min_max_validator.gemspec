@@ -5,7 +5,7 @@ require 'min_max_validator/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "min_max_validator"
-  spec.version       = MinMaxValidator::VERSION
+  spec.version       = MinMaxValidatorVersion::VERSION
   spec.authors       = ["Naveen Agarwal"]
   spec.email         = ["naveenagarwal287@gmail.com"]
   spec.summary       = %q{mininum and maximum value validator for the two attributes.}
