@@ -22,4 +22,9 @@ describe Salary do
     @salary.should be_valid
   end
 
+  it "should except the maximum salary in case minimum is not prsent" do
+    @salary.maximum = 10000
+    @salary.should be_valid
+  end
+
 end

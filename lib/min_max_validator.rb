@@ -16,7 +16,7 @@ class MinMaxValidator < ActiveModel::Validator
   private
 
   def valid_max_value?(min: 0, max: nil)
-    if max.present?
+    if min.present? && max.present?
       max >= min
     else
       true
