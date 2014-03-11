@@ -10,7 +10,7 @@ For Example:
 
 3. Comparing father son age, etc.
 
-
+4. Comparing minimum, maximum date and time.
 
 ## Installation
 
